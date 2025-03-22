@@ -45,62 +45,6 @@ sap.ui.define(
         });
       },
 
-      onDownload: function () {
-        var oModel = this.getView().getModel("directory");
-        var sSelectedUnit = this.getView().byId("unitTabBar").getSelectedKey();
-
-        if (!oModel) {
-          sap.m.MessageToast.show("No data available");
-          return;
-        }
-
-        // Filter employees based on the selected tab
-        var aData = oModel
-          .getData()
-          .employees.filter(
-            (employee) =>
-              sSelectedUnit === "ALL" || employee.unit === sSelectedUnit
-          );
-
-        if (aData.length === 0) {
-          sap.m.MessageToast.show("No employees to export");
-          return;
-        }
-
-        // Define columns for the Excel file
-        var aColumns = [
-          { label: "Name", property: "name" },
-          { label: "Designation", property: "designation" },
-          { label: "Work", property: "work" },
-          { label: "Unit", property: "unit" },
-          { label: "Division", property: "division" },
-          { label: "CUG", property: "cug_number" },
-          { label: "Landline Office", property: "landline_office" },
-          { label: "Landline Residence", property: "landline_residence" },
-          { label: "NLC Office No", property: "nlc_number_office" },
-          { label: "NLC Residence No", property: "nlc_number_residence" },
-        ];
-
-        // Configure the Excel export settings
-        var oSettings = {
-          workbook: { columns: aColumns },
-          dataSource: aData,
-          fileName: sSelectedUnit + "_Employee_Directory.xlsx",
-        };
-
-        // Create and download the Excel file
-        var oSheet = new sap.ui.export.Spreadsheet(oSettings);
-        oSheet
-          .build()
-          .then(() => {
-            sap.m.MessageToast.show("Download completed");
-          })
-          .catch((error) => {
-            sap.m.MessageToast.show("Error while exporting data");
-            console.error(error);
-          });
-      },
-
       onTabSelect: function (oEvent) {
         var sKey = oEvent.getParameter("key");
         this.filterEmployees(sKey, "");
@@ -126,10 +70,92 @@ sap.ui.define(
           );
         });
 
-        // Sort by designation
-        aFilteredData.sort((a, b) =>
-          a.designation.localeCompare(b.designation)
-        );
+        // Define the hierarchy order (Head to Bottom)
+        var aDesignationOrder = [
+          "CMD",
+          "Director (Finance)",
+          "Director (Human Resources)",
+          "Director (Mines)",
+          "Director (Power)",
+          "CVO",
+          "CS",
+          "ED",
+          "GM - Mines",
+          "DGM - Mines",
+          "AGM - Mines",
+          "CM - Mines",
+          "Sr. Mgr - Mines",
+          "Mgr - Mines",
+          "Dy. Mgr - Mines",
+          "Asst. Mgr - Mines",
+          "ME",
+          "Geo.",
+          "SO",
+          "Sup./Frm.",
+          "EO",
+          "Mnr.",
+          "SS",
+          "GM - Thermal",
+          "DGM - Thermal",
+          "AGM - Thermal",
+          "CM - Thermal",
+          "Sr. Mgr - Thermal",
+          "Mgr - Thermal",
+          "Dy. Mgr - Thermal",
+          "Asst. Mgr - Thermal",
+          "Engr.",
+          "Tech.",
+          "SO",
+          "Sup.",
+          "Opr.",
+          "SS",
+        ];
+
+        // Sort the filtered data based on the designation hierarchy
+        aFilteredData.sort((a, b) => {
+          let indexA = aDesignationOrder.indexOf(a.designation);
+          let indexB = aDesignationOrder.indexOf(b.designation);
+
+          // Handle thermal units separately
+          const isThermalUnitA = a.unit.includes("Thermal");
+          const isThermalUnitB = b.unit.includes("Thermal");
+
+          if (isThermalUnitA && isThermalUnitB) {
+            // Ensure thermal designations are sorted correctly
+            if (indexA === -1) indexA = aDesignationOrder.length;
+            if (indexB === -1) indexB = aDesignationOrder.length;
+            return indexA - indexB;
+          } else if (isThermalUnitA) {
+            // If 'a' is from a thermal unit, prioritize it
+            return -1;
+          } else if (isThermalUnitB) {
+            // If 'b' is from a thermal unit, prioritize it
+            return 1;
+          } else {
+            // For non-thermal units, use the default sorting
+            if (indexA === -1) indexA = aDesignationOrder.length;
+            if (indexB === -1) indexB = aDesignationOrder.length;
+            return indexA - indexB;
+          }
+        });
+
+        // Ensure "SO" and "SS" are at the bottom for thermal units
+        if (sUnit === "ALL" || sUnit.includes("Thermal")) {
+          aFilteredData.sort((a, b) => {
+            const isSOorSSA = a.designation === "SO" || a.designation === "SS";
+            const isSOorSSB = b.designation === "SO" || b.designation === "SS";
+
+            if (isSOorSSA && isSOorSSB) {
+              return 0; // Both are "SO" or "SS", no change in order
+            } else if (isSOorSSA) {
+              return 1; // Move "SO" or "SS" to the bottom
+            } else if (isSOorSSB) {
+              return -1; // Move "SO" or "SS" to the bottom
+            } else {
+              return 0; // No change for other designations
+            }
+          });
+        }
 
         oModel.setData({ employees: aFilteredData });
       },

@@ -2,7 +2,7 @@
   "employees": [
     {
       "name": "Vishal Nair",
-      "designation": "Engineer",
+      "designation": "GM - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Rahul Gupta",
-      "designation": "Manager",
+      "designation": "DGM - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Suresh Mehra",
-      "designation": "Supervisor",
+      "designation": "AGM - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Meena Saxena",
-      "designation": "Technician",
+      "designation": "CM - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Kayadu Das",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Suresh Malhotra",
-      "designation": "Analyst",
+      "designation": "Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Kiran Sharma",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Suresh Sharma",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Kayadu Pillai",
-      "designation": "Operations Manager",
+      "designation": "ME",
       "work": "Computer Work ",
       "unit": "Mine I",
       "division": "Production Division",
@@ -110,7 +110,7 @@
     },
     {
       "name": "Kayadu Verma",
-      "designation": "Project Lead",
+      "designation": "Geo.",
       "work": " Computer Work",
       "unit": "Mine I",
       "division": "Production Division",
@@ -122,7 +122,7 @@
     },
     {
       "name": "Arun Das",
-      "designation": "Engineer",
+      "designation": "GM - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -134,7 +134,7 @@
     },
     {
       "name": "Kavita Pillai",
-      "designation": "Manager",
+      "designation": "DGM - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -146,7 +146,7 @@
     },
     {
       "name": "Manoj Pillai",
-      "designation": "Supervisor",
+      "designation": "AGM - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -158,7 +158,7 @@
     },
     {
       "name": "Kayadu Joshi",
-      "designation": "Technician",
+      "designation": "CM - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -170,7 +170,7 @@
     },
     {
       "name": "Manoj Das",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -182,7 +182,7 @@
     },
     {
       "name": "Rahul Reddy",
-      "designation": "Analyst",
+      "designation": "Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -194,7 +194,7 @@
     },
     {
       "name": "Swetha Kumar",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -206,7 +206,7 @@
     },
     {
       "name": "Swetha Shetty",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -218,7 +218,7 @@
     },
     {
       "name": "Arun Verma",
-      "designation": "Operations Manager",
+      "designation": "ME",
       "work": "Computer Work Division",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -230,7 +230,7 @@
     },
     {
       "name": "Manoj Reddy",
-      "designation": "Project Lead",
+      "designation": "Geo.",
       "work": "Responsible Computer Work",
       "unit": "Mine I A",
       "division": "Excavation Division",
@@ -242,7 +242,7 @@
     },
     {
       "name": "Neha Mehra",
-      "designation": "Engineer",
+      "designation": "GM - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -254,7 +254,7 @@
     },
     {
       "name": "Kiran Das",
-      "designation": "Manager",
+      "designation": "DGM - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -266,7 +266,7 @@
     },
     {
       "name": "Rohit Mehra",
-      "designation": "Supervisor",
+      "designation": "AGM - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -278,7 +278,7 @@
     },
     {
       "name": "Swetha Malhotra",
-      "designation": "Technician",
+      "designation": "CM - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -290,7 +290,7 @@
     },
     {
       "name": "Kiran Reddy",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -302,7 +302,7 @@
     },
     {
       "name": "Rohit Kumar",
-      "designation": "Analyst",
+      "designation": "Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -314,7 +314,7 @@
     },
     {
       "name": "Kavita Kumar",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -326,7 +326,7 @@
     },
     {
       "name": "Vishal Rao",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Mines",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -338,7 +338,7 @@
     },
     {
       "name": "Manoj Saxena",
-      "designation": "Operations Manager",
+      "designation": "ME",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -350,7 +350,7 @@
     },
     {
       "name": "Rina Kumar",
-      "designation": "Project Lead",
+      "designation": "Geo.",
       "work": "Computer Work",
       "unit": "Mine II",
       "division": "Maintenance Division",
@@ -362,7 +362,7 @@
     },
     {
       "name": "Kayadu Sharma",
-      "designation": "Engineer",
+      "designation": "GM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -374,7 +374,7 @@
     },
     {
       "name": "Rohit Rao",
-      "designation": "Manager",
+      "designation": "DGM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -386,7 +386,7 @@
     },
     {
       "name": "Rina Das",
-      "designation": "Supervisor",
+      "designation": "AGM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -398,7 +398,7 @@
     },
     {
       "name": "Meena Malhotra",
-      "designation": "Technician",
+      "designation": "CM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -410,7 +410,7 @@
     },
     {
       "name": "Suresh Rao",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -422,7 +422,7 @@
     },
     {
       "name": "Rina Malhotra",
-      "designation": "Analyst",
+      "designation": "Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -434,7 +434,7 @@
     },
     {
       "name": "Manoj Bansal",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -446,7 +446,7 @@
     },
     {
       "name": "Rohit Nair",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -458,7 +458,7 @@
     },
     {
       "name": "Manoj Verma",
-      "designation": "Operations Manager",
+      "designation": "Engr.",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -470,7 +470,7 @@
     },
     {
       "name": "Ananya Bansal",
-      "designation": "Project Lead",
+      "designation": "Tech.",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station I",
       "division": "Operations Division",
@@ -482,7 +482,7 @@
     },
     {
       "name": "Rina Pillai",
-      "designation": "Engineer",
+      "designation": "GM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -494,7 +494,7 @@
     },
     {
       "name": "Manoj Nair",
-      "designation": "Manager",
+      "designation": "DGM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -506,7 +506,7 @@
     },
     {
       "name": "Neha Mehra",
-      "designation": "Supervisor",
+      "designation": "AGM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -518,7 +518,7 @@
     },
     {
       "name": "Vishal Nair",
-      "designation": "Technician",
+      "designation": "CM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -530,7 +530,7 @@
     },
     {
       "name": "Priya Bansal",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -542,7 +542,7 @@
     },
     {
       "name": "Priya Shetty",
-      "designation": "Analyst",
+      "designation": "Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -554,7 +554,7 @@
     },
     {
       "name": "Swetha Pillai",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -566,7 +566,7 @@
     },
     {
       "name": "Rohit Nair",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -578,7 +578,7 @@
     },
     {
       "name": "Neha Gupta",
-      "designation": "Operations Manager",
+      "designation": "Engr.",
       "work": "Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -590,7 +590,7 @@
     },
     {
       "name": "Swetha Mehra",
-      "designation": "Project Lead",
+      "designation": "Tech.",
       "work": "Responsible Computer Work",
       "unit": "Neyveli Thermal Power Station II",
       "division": "Electrical Division",
@@ -602,7 +602,7 @@
     },
     {
       "name": "Vishal Nair",
-      "designation": "Engineer",
+      "designation": "GM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -614,7 +614,7 @@
     },
     {
       "name": "Rahul Reddy",
-      "designation": "Manager",
+      "designation": "DGM - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -626,7 +626,7 @@
     },
     {
       "name": "Manoj Shetty",
-      "designation": "Supervisor",
+      "designation": "AGM - Thermal",
       "work": "Computer Work ",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -638,7 +638,7 @@
     },
     {
       "name": "Kiran Nair",
-      "designation": "Technician",
+      "designation": "CM - Thermal",
       "work": "Computer Work ",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -650,7 +650,7 @@
     },
     {
       "name": "Ananya Malhotra",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -662,7 +662,7 @@
     },
     {
       "name": "Kiran Joshi",
-      "designation": "Analyst",
+      "designation": "Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -674,7 +674,7 @@
     },
     {
       "name": "Vishal Nair",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -686,7 +686,7 @@
     },
     {
       "name": "Kiran Saxena",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Thermal",
       "work": "Computer Work ",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -698,7 +698,7 @@
     },
     {
       "name": "Neha Malhotra",
-      "designation": "Operations Manager",
+      "designation": "Engr.",
       "work": "Computer Workation Division",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -710,7 +710,7 @@
     },
     {
       "name": "Manoj Pillai",
-      "designation": "Project Lead",
+      "designation": "Tech.",
       "work": "Computer Workation Division",
       "unit": "Neyveli New Thermal Power Station",
       "division": "Instrumentation Division",
@@ -722,7 +722,7 @@
     },
     {
       "name": "Ananya Mehra",
-      "designation": "Engineer",
+      "designation": "GM - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -734,7 +734,7 @@
     },
     {
       "name": "Manoj Kumar",
-      "designation": "Manager",
+      "designation": "DGM - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -746,7 +746,7 @@
     },
     {
       "name": "Rajesh Bansal",
-      "designation": "Supervisor",
+      "designation": "AGM - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -758,7 +758,7 @@
     },
     {
       "name": "Swetha Gupta",
-      "designation": "Technician",
+      "designation": "CM - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -770,7 +770,7 @@
     },
     {
       "name": "Priya Saxena",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -782,7 +782,7 @@
     },
     {
       "name": "Rajesh Mehra",
-      "designation": "Analyst",
+      "designation": "Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -794,7 +794,7 @@
     },
     {
       "name": "Meena Reddy",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -806,7 +806,7 @@
     },
     {
       "name": "Rahul Reddy",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Thermal",
       "work": "Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -818,7 +818,7 @@
     },
     {
       "name": "Kayadu Sharma",
-      "designation": "Operations Manager",
+      "designation": "Engr.",
       "work": "Computer Work Division",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -830,7 +830,7 @@
     },
     {
       "name": "Rahul Nair",
-      "designation": "Project Lead",
+      "designation": "Tech.",
       "work": "Responsible Computer Work",
       "unit": "Thermal Power Station II Expansion",
       "division": "Mechanical Division",
@@ -842,7 +842,7 @@
     },
     {
       "name": "Swetha Mehra",
-      "designation": "Engineer",
+      "designation": "GM - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -854,7 +854,7 @@
     },
     {
       "name": "Arun Mehra",
-      "designation": "Manager",
+      "designation": "DGM - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -866,7 +866,7 @@
     },
     {
       "name": "Priya Pillai",
-      "designation": "Supervisor",
+      "designation": "AGM - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -878,7 +878,7 @@
     },
     {
       "name": "Meena Das",
-      "designation": "Technician",
+      "designation": "CM - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -890,7 +890,7 @@
     },
     {
       "name": "Priya Das",
-      "designation": "Officer",
+      "designation": "Sr. Mgr - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -902,7 +902,7 @@
     },
     {
       "name": "Rina Nair",
-      "designation": "Analyst",
+      "designation": "Mgr - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -914,7 +914,7 @@
     },
     {
       "name": "Priya Kumar",
-      "designation": "Clerk",
+      "designation": "Dy. Mgr - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -926,7 +926,7 @@
     },
     {
       "name": "Ananya Reddy",
-      "designation": "Consultant",
+      "designation": "Asst. Mgr - Thermal",
       "work": "Responsible Computer Work",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -938,7 +938,7 @@
     },
     {
       "name": "Kavita Shetty",
-      "designation": "Operations Manager",
+      "designation": "Engr.",
       "work": "Responsible for Computer Workivision",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -950,7 +950,7 @@
     },
     {
       "name": "Swetha Malhotra",
-      "designation": "Project Lead",
+      "designation": "Tech.",
       "work": "Responsible for Computer Workivision",
       "unit": "Barsingsar Thermal Power Station",
       "division": "Fuel Handling Division",
@@ -959,6 +959,426 @@
       "landline_residence": "044-27179321",
       "nlc_number_office": "1179",
       "nlc_number_residence": "2179"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Mine I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup./Frm.",
+      "work": "N/A",
+      "unit": "Mine I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "EO",
+      "work": "N/A",
+      "unit": "Mine I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Mnr.",
+      "work": "N/A",
+      "unit": "Mine I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Mine I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Mine I A",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup./Frm.",
+      "work": "N/A",
+      "unit": "Mine I A",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "EO",
+      "work": "N/A",
+      "unit": "Mine I A",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Mnr.",
+      "work": "N/A",
+      "unit": "Mine I A",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Mine I A",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Mine II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup./Frm.",
+      "work": "N/A",
+      "unit": "Mine II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "EO",
+      "work": "N/A",
+      "unit": "Mine II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Mnr.",
+      "work": "N/A",
+      "unit": "Mine II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Mine II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup.",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Opr.",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station I",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup.",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Opr.",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Neyveli Thermal Power Station II",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Neyveli New Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup.",
+      "work": "N/A",
+      "unit": "Neyveli New Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Opr.",
+      "work": "N/A",
+      "unit": "Neyveli New Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Neyveli New Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Thermal Power Station II Expansion",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup.",
+      "work": "N/A",
+      "unit": "Thermal Power Station II Expansion",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Opr.",
+      "work": "N/A",
+      "unit": "Thermal Power Station II Expansion",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Thermal Power Station II Expansion",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SO",
+      "work": "N/A",
+      "unit": "Barsingsar Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Sup.",
+      "work": "N/A",
+      "unit": "Barsingsar Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "Opr.",
+      "work": "N/A",
+      "unit": "Barsingsar Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
+    },
+    {
+      "name": "Dummy Employee",
+      "designation": "SS",
+      "work": "N/A",
+      "unit": "Barsingsar Thermal Power Station",
+      "division": "N/A",
+      "cug_number": "0000000000",
+      "landline_office": "000-0000000",
+      "landline_residence": "000-0000000",
+      "nlc_number_office": "0000",
+      "nlc_number_residence": "0000"
     }
   ]
 }
