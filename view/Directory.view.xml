@@ -6,7 +6,7 @@
   <Page title="☎️ Telephone Directory" showHeader="true" showNavButton="true" navButtonPress="onNavBack">
     
     <content>
-      <VBox class="sapUiSmallMargin background-lite margin-zero">
+      <VBox class="sapUiSmallMargin background-lite margin-adjust">
 
         <!-- Tabs for Units (Dynamically generated) -->
         <IconTabBar id="unitTabBar" class="unit-tabs" select="onTabSelect">
