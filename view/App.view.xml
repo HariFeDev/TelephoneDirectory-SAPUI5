@@ -1,0 +1,75 @@
+<mvc:View 
+  xmlns:core="sap.ui.core" 
+  xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns="sap.m" 
+  xmlns:l="sap.ui.layout"
+  xmlns:fiori="sap.ui.webc.fiori"
+  controllerName="com.nlcindia.contact.controller.App" 
+  displayBlock="true" height="100%">
+	
+  <App id="fioriContent" height="100%">     
+    <Page showHeader="false" enableScrolling="false" class="loginBlock">               
+      <html:style>
+        .tileText {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black !important;
+        }
+        
+        .loginBlock {
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Optionally, for horizontal centering */
+        background-color:#91e3de;
+        }
+        
+        .mainBlock{
+        margin-top:-50px;
+        }
+        
+        .imgBlock{
+        background-color:#00A4B4;
+        }
+      </html:style>
+      <l:BlockLayout id="BlockLayout">
+        <l:BlockLayoutRow>
+          <l:BlockLayoutCell class="imgBlock">
+            <HBox justifyContent="SpaceAround">
+                <Image src="images/ess.png" width="100%" height="100%"/> 
+            </HBox>
+          </l:BlockLayoutCell>
+          <l:BlockLayoutCell class="loginBlock">
+            <VBox alignItems="Center" justifyContent="SpaceAround">
+              <!--<Button icon="sap-icon://lightbulb"/>-->
+              <Text  text="ESS/MSS" class="tileText sapUiMediumMarginBottom "/>
+              <Image src="img/NLC_logo_trans.png"  width="6.5vw" height="120px"  class="sapUiSmallMarginBottom"></Image>
+              <!--                            <HBox justifyContent="Center" alignContent="Center" alignItems="Center">
+                  <Label class="sapUiTinyMarginEnd" text="User Type: " design="Bold" required="true"/>
+                  <ComboBox  id="userType"  width="110px" selectedKey="Initiator" change="onUsertypeChange">
+                      <core:Item  key="Initiator" text="Initiator"/>
+                      <core:Item  key="Approver" text="Approver"/>
+                  </ComboBox>
+              </HBox>-->
+              <Input id="uid" placeholder="Intranet Username" width="14vw"></Input>
+              <Input class="sapUiTinyMarginBottom"  id="pwd" placeholder="Intranet Password" type="Password" width="14vw"></Input>
+              <HBox alignItems="Center" justifyContent="SpaceAround" width="17vw">
+                <Link  text="QR Code" press="onNavToGAuthQR"/>
+                <Link  text="Forgot Password" press="onNavToResPwd"/>
+              </HBox>
+              <Button text="Login" type="Emphasized" press="onLogin"></Button>
+              
+              
+              <HBox alignItems="Center" justifyContent="Center" class="sapUiTinyMarginTop">
+                <MessageStrip
+                  text="Ensure your PC / Laptop is registered in Digital Assets and Domain."
+                  showIcon="true"
+                  type ="Information">
+                </MessageStrip>
+              </HBox>
+            </VBox>
+          </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+      </l:BlockLayout>	              
+    </Page>
+  </App>
+</mvc:View>

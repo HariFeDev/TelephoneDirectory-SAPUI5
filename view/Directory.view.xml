@@ -1,0 +1,63 @@
+<mvc:View xmlns="sap.m" 
+          xmlns:mvc="sap.ui.core.mvc" 
+          controllerName="com.nlcindia.contact.controller.Directory" 
+          displayBlock="true" height="100%">
+
+  <Page title="☎️ Telephone Directory" showHeader="true" showNavButton="true" navButtonPress="onNavBack">
+    
+    <content>
+      <VBox class="sapUiSmallMargin background-lite margin-zero">
+
+        <!-- Tabs for Units (Dynamically generated) -->
+        <IconTabBar id="unitTabBar" class="unit-tabs" select="onTabSelect">
+        </IconTabBar>
+
+        <!-- Search Bar -->
+        <HBox class="input-container" justifyContent="SpaceBetween">
+          <Text text="👤 Employee Details" class="employee-details-title" />
+          <HBox class="searchfield-download-btn">
+            <SearchField id="customSearch" liveChange="onSearch" placeholder="Search ..." />
+            <Button text="Download" press="onDownload" icon="sap-icon://download" />
+          </HBox>
+        </HBox>
+
+        <!-- Employee List -->
+        <ScrollContainer height="80vh" width="100%" vertical="true">
+          <VBox items="{directory>/employees}">
+            <HBox class="desktop-view full-width">
+              <VBox class="desktop-name-section">
+                <Title text="{directory>name}" level="H2" class="employee-name"/>
+                <Text text="{directory>designation}" class="employee-designation"/>
+                <Text text="{directory>work}" class="employee-work"/>
+              </VBox>
+
+              <HBox class="employee-details-row">
+                <Text text="{directory>unit} / {directory>division}" class="employee-detail"/>
+              </HBox>
+
+              <HBox class="employee-details-row">
+                <Text text="📱 CUG: {directory>cug_number}" class="employee-detail cug-number"/>
+              </HBox>
+
+              <HBox class="employee-details-row">
+                <Text text="☎️ Landline Off: {directory>landline_office}" class="employee-detail"/>
+              </HBox>
+
+              <HBox class="employee-details-row">
+                <Text text="☎️ Landline Res: {directory>landline_residence}" class="employee-detail"/>
+              </HBox>
+
+              <HBox class="employee-details-row">
+                <Text text="📞 NLC Off: {directory>nlc_number_office}" class="employee-detail"/>
+              </HBox>
+
+              <HBox class="employee-details-row">
+                <Text text="📞 NLC Res: {directory>nlc_number_residence}" class="employee-detail"/>
+              </HBox>
+            </HBox>
+          </VBox>
+        </ScrollContainer>
+      </VBox>     
+    </content>
+  </Page>
+</mvc:View>

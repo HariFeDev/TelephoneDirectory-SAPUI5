@@ -1,0 +1,29 @@
+<Panel class="sapUiSmallMargin padding-zero sapUiResponsiveMargin employee-panel">
+              <HBox class="employee-card full-width">
+                
+                <!-- Employee Details -->
+                <HBox class="desktop-view">
+                  <VBox class="desktop-name-section">
+                    <Title text="{directory>name}" level="H2" class="employee-name"/>
+                    <Text text="{directory>designation}" class="employee-designation"/>
+                    <Text text="{directory>work}" class="employee-work"/>
+                  </VBox>
+
+                  <HBox class="employee-details-row">
+                    <Text text="📦 Unit: {directory>unit} / {directory>division}" class="employee-detail"/>
+                  </HBox>
+
+                  <HBox class="employee-details-row">
+                    <Text text="🔢 CUG: {directory>cug_number}" class="employee-detail cug-number"/>
+                    <Text text="☎️ Landline Office: {directory>landline_office}" class="employee-detail"/>
+                    <Text text="☎️ Landline Residence: {directory>landline_residence}" class="employee-detail"/>
+                  </HBox>
+
+                  <HBox class="employee-details-row">
+                    <Text text="📞 NLC Office No: {directory>nlc_number_office}" class="employee-detail"/>
+                    <Text text="📞 NLC Residence No: {directory>nlc_number_residence}" class="employee-detail"/>
+                  </HBox>
+                </HBox>
+
+              </HBox>
+            </Panel>
